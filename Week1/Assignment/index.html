@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Tugas Pertemuan 1</title>
+  </head>
+  <body>
+    <main class="main">
+      <header>
+        <h1>To-Do List</h1>
+      </header>
+
+      <section class="buatTugas">
+        <form>
+          <div>
+            <label for="namaTugas">Nama Tugas</label>
+            <input type="text" id="namaTugas" placeholder="Nama tugas" />
+          </div>
+
+          <div>
+            <label for="deskripsiTugas">Deskripsi Tugas</label>
+            <textarea
+              id="deskripsiTugas"
+              placeholder="Deskripsi tugas"
+            ></textarea>
+          </div>
+
+          <div>
+            <label for="deadlineTugas">Deadline Tugas</label>
+            <input type="date" id="deadlineTugas" />
+          </div>
+
+          <input type="submit" value="Tambahkan" />
+        </form>
+      </section>
+
+      <section class="daftarTugas">
+        <h2>Daftar Tugas</h2>
+        <article>
+          <p><strong>Nama Tugas:</strong> Belajar HTML</p>
+          <p><strong>Deskripsi:</strong> Memahami struktur dasar HTML</p>
+          <p><strong>Deadline:</strong> 2024-12-15</p>
+        </article>
+
+        <article>
+          <p><strong>Nama Tugas:</strong> Belajar CSS</p>
+          <p>
+            <strong>Deskripsi:</strong> Memahami selektor dan properti dasar CSS
+          </p>
+          <p><strong>Deadline:</strong> 2024-12-15</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
